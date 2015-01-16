@@ -1,0 +1,19 @@
+{
+    "alias": "ciphar.phar",
+    "chmod": "0755",
+    "directories": ["src"],
+    "finder": [
+        {
+            "ignoreVCS": "true",
+            "name": "*.php",
+            "notName": "Compiler.php",
+            "exclude": ["Tests","Tester"],
+            "in": "vendor"
+        }
+    ],
+    "git-version": "package_version",
+    "main": "bootstrap.php",
+    "output": "ciphar.phar",
+    "compression": "BZ2",
+    "stub": true
+}

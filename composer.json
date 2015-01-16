@@ -1,0 +1,28 @@
+{
+  "name": "cliphar/cliphar-skeleton",
+  "description": "PHP framework for CLI apps",
+  "keywords": [
+    "microframework",
+    "cli"
+  ],
+  "homepage": "https://bitbucket.org/jjtorroglosa/cliphar",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/Acme/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Juan José Torroglosa",
+      "email": "jjtorroglosa@gmail.com"
+    }
+  ],
+  "require": {
+    "cliphar/cliphar": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "minimum-stability": "dev"
+}
