@@ -5,7 +5,7 @@
     "microframework",
     "cli"
   ],
-  "homepage": "https://bitbucket.org/jjtorroglosa/cliphar",
+  "homepage": "https://github.com/jjtorroglosa/cliphar",
   "license": "MIT",
   "autoload": {
     "psr-4": {
