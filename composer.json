@@ -19,10 +19,9 @@
     }
   ],
   "require": {
-    "cliphar/cliphar": "dev-master"
+    "cliphar/cliphar": "~1.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
-  },
-  "minimum-stability": "dev"
+  }
 }

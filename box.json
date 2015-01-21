@@ -1,5 +1,5 @@
 {
-    "alias": "ciphar.phar",
+    "alias": "cliphar.phar",
     "chmod": "0755",
     "directories": ["src"],
     "finder": [
@@ -13,7 +13,7 @@
     ],
     "git-version": "package_version",
     "main": "bootstrap.php",
-    "output": "ciphar.phar",
+    "output": "cliphar.phar",
     "compression": "BZ2",
     "stub": true
 }
