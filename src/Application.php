@@ -3,6 +3,7 @@
 namespace Acme;
 
 use Cliphar\BaseApplication;
+use Cliphar\ServiceProvider\LoggerProvider;
 
 /**
  * Class Application 
@@ -30,18 +31,17 @@ class Application extends BaseApplication
      */
     protected function getCommands()
     {
-        return array(
-            'Acme\Command\ExampleCommand'
-        );
+        return [];
     }
+
 
     /**
      * @return string[]
      */
     protected function getProviders()
     {
-        return array(
-            'Cliphar\ServiceProvider\LoggerProvider'
-        );
+        return [
+            LoggerProvider::class
+        ];
     }
 }

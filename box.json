@@ -1,7 +1,7 @@
 {
     "alias": "cliphar.phar",
     "chmod": "0755",
-    "directories": ["src"],
+    "directories": ["src", "resources"],
     "finder": [
         {
             "ignoreVCS": "true",
@@ -12,8 +12,8 @@
         }
     ],
     "git-version": "package_version",
-    "main": "bootstrap.php",
+    "main": "stub.php",
     "output": "cliphar.phar",
-    "compression": "BZ2",
+    "compression": "GZ",
     "stub": true
 }

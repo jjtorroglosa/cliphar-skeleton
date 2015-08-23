@@ -9,7 +9,12 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Acme\\": "src/Acme/"
+      "Acme\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\": "test/"
     }
   },
   "authors": [
@@ -19,7 +24,8 @@
     }
   ],
   "require": {
-    "cliphar/cliphar": "~1.0.0"
+    "php" : ">=5.5.0",
+    "cliphar/cliphar": "~2.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
